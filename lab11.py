@@ -66,7 +66,7 @@ def echo_once(host, port, message):
 def main():
     # Optional scratch space - try the async parts here, e.g.:
     print(asyncio.run(gather_doubled([1, 2, 3, 4])))   # [2, 4, 6, 8]
-    pass
+    
 
 
 if __name__ == "__main__":
